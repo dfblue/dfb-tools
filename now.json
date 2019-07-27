@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "name": "dfb-tools",
+    "scope": "dfblue",
+    "public": false,
+    "builds": [
+        {
+            "src": "dfl-notes/api/**/*.js",
+            "use": "@now/node"
+        }
+    ]
+}
