@@ -11,3 +11,9 @@ DFB_PIPELINE_MODE=interactive
 ```
 chmod -R 754 pipeline
 ```
+
+## deploy
+
+```
+npx pkg --out-path pipeline/build --targets node12-macos-x64,node12-linux-x64,node12-win-x64 package.json
+```

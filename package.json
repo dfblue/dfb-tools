@@ -5,6 +5,12 @@
   },
   "version": "1.0.0",
   "description": "Tools provided by DeepFakeBlue for deepfake related activities",
+  "bin": {
+    "dfb": "pipeline/dfb.js"
+  },
+  "pkg": {
+    "scripts": "pipeline/*.js"
+  },
   "scripts": {
     "dev": "npx now dev",
     "deploy": "npx now",
@@ -31,6 +37,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "pkg": "^4.4.0"
   }
 }

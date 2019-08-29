@@ -1,5 +1,4 @@
-#!/bin/sh
-':' //; exec "$(command -v nodejs || command -v node)" "$0" "$@"
+#!/usr/bin/env node
 
 const path = require('path')
 require('dotenv').config({path: path.resolve(__dirname, '.env')})
