@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+console.log('Running fake-faceswap');
+console.log(process.argv.slice(2));

@@ -1,2 +1,3 @@
 node_modules
 pipeline/test-workspace*
+pipeline/.env
