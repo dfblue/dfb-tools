@@ -65,4 +65,10 @@ const matchHelper = (regex, string, transformMatch = (m) => m) => {
     return converted;
 }
 
-module.exports = { formatDFLModelParams }
+const characterReplacement = '-';
+
+const normalizeString = (string) => {
+    return string.replace(' ', characterReplacement).toLowerCase();
+}
+
+module.exports = { formatDFLModelParams, characterReplacement, normalizeString };
